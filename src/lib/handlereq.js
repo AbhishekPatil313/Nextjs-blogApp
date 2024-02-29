@@ -1,6 +1,7 @@
 "use server";
 
 import { signIn, signOut } from "./auth";
+import { revalidatePath } from "next/cache";
 import { conntectToDb } from "./connectToDb";
 import { User } from "./models";
 import bcrypt from "bcryptjs";
@@ -49,6 +50,7 @@ export const formlogin = async(previousState,formData) =>{
     const {username , password} =Object.fromEntries(formData);
     try {
        await signIn("credentials",{username , password});
+       revalidatePath("/");
     } catch (error) {
         console.log(error);
         throw error;

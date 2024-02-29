@@ -35,7 +35,7 @@ export const deletePost = async(formData) =>{
     const {id} =   Object.fromEntries(formData);
     try {
         conntectToDb();
-        await Post.findByIdAndDelete(postId);
+        await Post.findByIdAndDelete(id);
         console.log("deleted from db");
         revalidatePath("/blog");
         revalidatePath("/admin");

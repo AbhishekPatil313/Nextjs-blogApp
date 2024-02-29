@@ -32,7 +32,7 @@ export const addPost = async(prevState,formData) =>{
 
 export const deletePost = async(formData) =>{
 
-    const {postId} =   Object.fromEntries(formData);
+    const {id} =   Object.fromEntries(formData);
     try {
         conntectToDb();
         await Post.findByIdAndDelete(postId);

@@ -10,8 +10,8 @@ const  getData = async ()=> {
   return res.json()
 }
 const BlogPage = async() => {
-  // const posts = await getPosts();
-  const posts = await getData();
+   const posts = await getPosts();
+  // const posts = await getData();
   return (
     <>
       <div className={styles.container}>

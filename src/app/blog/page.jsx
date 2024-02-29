@@ -3,7 +3,7 @@ import styles from "./blog.module.css"
 import PostCard from '@/components/postCard/postCard'
 import { getPosts } from '@/lib/data';
 const  getData = async ()=> {
-  const res = await fetch("http://localhost:3000/api/blog");
+  const res = await fetch("https://nextjs-blog-app-five-virid.vercel.app/api/blog");
   if(!res.ok){
     throw new Error("Something went wrong !");
   }

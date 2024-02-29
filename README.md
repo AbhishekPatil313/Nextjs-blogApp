@@ -1,4 +1,5 @@
 ### Link : https://nextjs-blog-app-five-virid.vercel.app/
+## Note : While logging in if error occurs , please revisit the link again u will be logged in. (trying to resolve auth issues...)
 
 
 

@@ -11,9 +11,9 @@ const AboutPage = () => {
             We create digital ideas that are bigger , bolder , braver and better.
           </h1>
           <p className={styles.description}>
-          &nbsp; &nbsp; &nbsp;  Welcome to NextBlog , a diverse online platform dedicated to exploring a
+           Welcome to NextBlog , a diverse online platform dedicated to exploring a
           multitude of topics and interests. 
-          Whether you're passionate about technology, culture, lifestyle, travel, or anything in between, we've got you covered. 
+          Whether youre passionate about technology, culture, lifestyle, travel, or anything in between, we have got you covered. 
           Our team of writers brings a unique blend of expertise and perspective, ensuring that every post offers something valuable and inspiring for our readers.
           From informative guides and in-depth analyses to personal anecdotes and creative musings, there's always something new to discover on 
           NextBlog . 
@@ -35,11 +35,11 @@ const AboutPage = () => {
         </div>
 
         <div className={styles.imgContainer}>
-          <Image src="/about.png" alt='Picture of the author' fill  className={styles.img}/>
+          <Image src="/about.png" alt="alternate" fill  className={styles.img}/>
         </div>
       </div>
     </div>
   )
 }
 
-export default AboutPage
+export default AboutPage;

@@ -1,4 +1,3 @@
-import { register } from '@/lib/handlereq'
 import React from 'react'
 import styles from "./register.module.css"
 import RegisterForm from '@/components/registerForm/RegisterForm'

@@ -1,4 +1,3 @@
-import { formlogin, handleGithubLogin } from '@/lib/handlereq'
 import styles from "./loginform.module.css";
 import React from 'react'
 import LoginForm from '@/components/loginForm/loginForm';

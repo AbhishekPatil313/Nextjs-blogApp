@@ -13,7 +13,7 @@ const AdminPostForm = ({userId}) => {
       <input type="hidden" name="userId" value={userId} />
       <input type="text" name="title" placeholder="Title" />
       <input type="text" name="slug" placeholder="slug" />
-      <input type="text" name="img" placeholder="image-link (use only 'pexels.com' to copy img address)" />
+      <input type="text" name="img" placeholder="image-link " />
       <textarea type="text" name="desc" placeholder="desc" rows={10} />
       <button>Add</button>
       {state?.error}

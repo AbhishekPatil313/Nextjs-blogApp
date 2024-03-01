@@ -2,10 +2,8 @@
 
 
 import { revalidatePath } from "next/cache";
-import { signOut } from "./auth";
 import { conntectToDb } from "./connectToDb";
 import { Post ,User } from "./models";
-import bcrypt from "bcryptjs";
 
 
 export const addPost = async(prevState,formData) =>{

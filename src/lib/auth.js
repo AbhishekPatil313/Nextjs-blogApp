@@ -9,7 +9,7 @@ import { authConfig } from "./auth.config";
 
 const login = async (credentials) => {
     try {
-        const {username } =credentials;
+        const {username }=credentials;
         conntectToDb();
       const user = await User.findOne({ username });
       if (!user) throw new Error("Wrong credentials!");

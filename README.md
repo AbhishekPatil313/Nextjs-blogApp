@@ -2,7 +2,7 @@
 ## Fintech Group 19 Submission Link - https://drive.google.com/drive/folders/1_g5PgyIXP86ZWuCCh9EW2AUvDSjNbK30?usp=sharing
 
 
-### Link : https://abhishekpatil-nextjs-blogapp.vercel.app/
+### App Hosted Link : https://abhishekpatil-nextjs-blogapp.vercel.app/
 ## Note : While logging in if error occurs , please revisit the link again you will be logged in. (trying to resolve auth issues...)
 
 

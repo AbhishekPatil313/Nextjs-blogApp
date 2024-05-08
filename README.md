@@ -1,6 +1,7 @@
 
 ## Fintech Group 19 Submission Link - https://drive.google.com/drive/folders/1_g5PgyIXP86ZWuCCh9EW2AUvDSjNbK30?usp=sharing
-### Also uploaded word document and report pdf in the code section (under gitignore file)
+## Also uploaded word document and report pdf in the code section (under gitignore file)
+
 ### Link : https://abhishekpatil-nextjs-blogapp.vercel.app/
 ## Note : While logging in if error occurs , please revisit the link again you will be logged in. (trying to resolve auth issues...)
 
